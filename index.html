@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DA YUMMY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffa07a;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem 1.5rem;
+            margin: 0 0.5rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ff4500;
+            border-radius: 5px;
+        }
+        .hero {
+            background-image: url('https://.com/1200x500');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+        .card {
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 1rem;
+            color: #333;
+        }
+        .card p {
+            margin: 0 1rem 1.5rem;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #ff6347;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DA YUMMY</h1>
+        <p>DISCOVER YOUR HAPPINESS AT A GO IN A PLATE</p>
+    </header>
+
+    <nav>
+        <a href="index.html">=Home</a>
+        <a href="Menu.html" >Menu</a>
+        <a href="Blog.html" >Blog</a>
+        <a href="contact.html" >Contact</a>
+    </nav>
+
+    <div class="hero" style="color: red;">
+        <h1>WELCOME TO DA YUMMY</h1>
+        <p>Experience a world of exquisite flavors and recipes crafted with love.</p>
+    </div>
+
+    <section class="content" id="menu">
+        <div class="card">
+            <img src="https://.com/300x200" alt="Dish 1">
+            <h3>Hearty Italian Pasta</h3>
+            <p>A blend of traditional flavors and fresh ingredients for a satisfying meal.</p>
+        </div>
+        <div class="card">
+            <img src="https://.com/300x200" alt="Dish 2">
+            <h3>Refreshing Summer Salad</h3>
+            <p>Light and crispy greens with a zesty dressing to cool your summer days.</p>
+        </div>
+        <div class="card">
+            <img src="https://.com/300x200" alt="Dish 3">
+            <h3>Decadent Chocolate Cake</h3>
+            <p>A rich, moist dessert for chocolate lovers.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DA YUMMY. All rights reserved.</p>
+    </footer>
+</body>
+</html>
